@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/PubMatic/OpenWrapSDK-Swift-Package.git", exact: "5.1.1")
+        .package(url: "https://github.com/PubMatic/OpenWrapSDK-Swift-Package.git", exact: "5.4.0")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationPubMaticAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/pubmatic-adapter/AppLovinMediationPubMaticAdapter-5.1.1.0.zip",
-            checksum: "c722f785f79eee5c133fc14785865e274a549cb8dad90e8b3df474e650b8a07b"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/pubmatic-adapter/AppLovinMediationPubMaticAdapter-5.4.0.0.zip",
+            checksum: "014a84e1452a620d594b9ca8415c282188852b4fc5d99083ea9c5a09425d1154"
         )
     ]
 )
