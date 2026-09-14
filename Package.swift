@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationPubMaticAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "AppLovinMediationPubMaticAdapter",
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationPubMaticAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/pubmatic-adapter/AppLovinMediationPubMaticAdapter-5.4.0.0.zip",
-            checksum: "014a84e1452a620d594b9ca8415c282188852b4fc5d99083ea9c5a09425d1154"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/pubmatic-adapter/AppLovinMediationPubMaticAdapter-5.4.0.1.zip",
+            checksum: "6701e013dd9c0b92d8f78026c9ba857992eb3e6b7cffcaa39aa920eb6cb33f85"
         )
     ]
 )
